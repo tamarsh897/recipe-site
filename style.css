@@ -1,0 +1,83 @@
+body{
+    color: rgb(53, 50, 50);
+    background-color: rgb(226, 223, 223);
+}
+h2
+{
+    color: darksalmon;
+}
+#recipe-title
+{
+size: 40px;
+color: burlywood;
+}
+.highlight
+{
+background-color:darksalmon ;
+}
+.intro
+{
+    size: 20px;
+    color: rgb(31, 31, 110);
+}
+.block {
+    background-color: white;
+    width: 700px;
+    box-shadow: 0 2px 8px gray;
+}
+#main-image
+{
+width :400px;
+box-shadow: 0 2px 8px gray;
+}
+#info-table
+{
+width:  100%;
+
+}
+.side-image
+{
+    width: 200px;
+    height: 200px;
+}
+#nav a:hover {
+    color: darkred;
+}
+.block :hover
+{
+    box-shadow: 10px 8px 16px rgb(80, 78, 78);
+}
+.ingredient-list li:first-child
+{
+    color: rgb(150, 130, 112);
+}
+.step-list li:last-child 
+{
+    color: rgb(241, 169, 180) !important;
+}
+tbody tr:hover{
+    background-color: rgb(252, 207, 193);
+}
+.ingredient-list li::before {
+    content: "+ ";
+    color: green;
+}
+
+h2 ::after
+{
+    content:":";
+    color:rgb(163, 92, 68);
+}
+#page-footer p::before
+{
+content: "@";
+}
+.container{
+    width:  900px;
+}
+
+
+/*
+ תשובה א: סלקטור class ברור שעדיף
+ תשובה ב: התמונה התעוותה וכדי שזה לא יקרה אני יגדיר או רוחב או גובה לא את שניהם ביחד
+*/
